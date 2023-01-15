@@ -1,0 +1,27 @@
+body {
+    background-color: black;  
+    color: white;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    position: absolute; 
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#niggaballs {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
