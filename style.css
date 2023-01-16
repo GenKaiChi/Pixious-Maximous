@@ -6,6 +6,10 @@ header {
 }
 
 footer {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 100px;
+  margin-bottom: 100px;
   font-style: inherit;
   position: fixed;
   top: 85%;
@@ -18,5 +22,9 @@ body {
 }
 
 #headunder {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
   text-align: center;
 }
