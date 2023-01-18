@@ -7,17 +7,34 @@ header {
 
 body {
   background-color: bisque;
-  background-image: repeating-linear-gradient(to right);
+  background-image: repeating-linear-gradient(to right, bisque, white);
 }
 
 #headunder {
-  font-size: 100px;
+  font-size: 50px;
   position: absolute;
   top: 20%;
   left: 50%;
   transform: translate(-50%);
   text-align: center;
   color: rgb(0, 0, 0);
+  border: color black;
+}
+
+#underunder {
+  font-weight: bolder;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border: color black;
+}
+
+#haden {
+  font-style: italic;
 }
 
 footer {
@@ -33,7 +50,7 @@ footer {
 }
 
 .social-image:hover {
-  filter: drop-shadow(0 0 0.75rem rgb(97, 91, 92));
+  filter: drop-shadow(0 0 0.75rem rgb(255, 0, 43));
 }
 
 #first,
